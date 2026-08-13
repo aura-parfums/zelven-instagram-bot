@@ -848,6 +848,8 @@ def process_message(
 
 @app.route(
     "/",
+    # Vercel
+application = app
     methods=["GET"]
 )
 def verify_webhook():
